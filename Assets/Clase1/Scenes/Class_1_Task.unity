@@ -744,7 +744,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogWarningMessage
+        m_MethodName: ShowLogWarningMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1060,7 +1060,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogInfoMessage
+        m_MethodName: ShowLogInfoMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1512,7 +1512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogErrorMessage
+        m_MethodName: ShowLogErrorMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
