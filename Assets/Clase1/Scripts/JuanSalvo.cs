@@ -48,7 +48,9 @@ public class JuanSalvo : MonoBehaviour
         //Ejemplo: si altura >= 2 -> "Fua estas para jugar en la NBA".
 
         if (edad > 60)
-                _finalMessage = "Mas sabe el diablo por viejo que por diablo, no?";
+            _finalMessage = "Mas sabe el diablo por viejo que por diablo, no?";
+        else if (edad < 10)
+            _finalMessage = "Sos demasiado joven, no deberias estar mirando Pokemon?";
         else
                 _finalMessage = "Estas hecho un pibe, ya quisiera yo tener esa edad!!";
 
