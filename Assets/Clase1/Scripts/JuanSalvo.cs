@@ -7,7 +7,7 @@ public class JuanSalvo : MonoBehaviour
 
     // Escribe tus variables aquí abajo: Recorda deben poder ser modificadas desde el inspector pero tambien ser privadas.
 
-    [SerializeField] private int nombre;
+    [SerializeField] private string nombre;
     [SerializeField] private int edad;
     [SerializeField] private float altura;
 
@@ -19,6 +19,7 @@ public class JuanSalvo : MonoBehaviour
     private string _finalMessage;
 
     // ---------------------------------------------------------
+   
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class JuanSalvo : MonoBehaviour
         // 2. TAREA: Construir la frase.
         // Asigna a la variable '_finalMessage' la concatenación de tus variables.
 
-        _finalMessage = "El nombre de nuestro protagonista es: " + nombre + ". Su edad es " + edad + " y mide " + altura;
+        _finalMessage = "El nombre de nuestro protagonista es: " + nombre + ". Su edad es " + edad + " años y mide " + altura + " metros.";
 
         // Mostrar en consola
         Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
@@ -48,9 +49,9 @@ public class JuanSalvo : MonoBehaviour
         //Ejemplo: si altura >= 2 -> "Fua estas para jugar en la NBA".
 
         if (edad > 60)
-            _finalMessage = "Mas sabe el diablo por viejo que por diablo, no?";
+            _finalMessage = "Más sabe el diablo por viejo que por diablo, no?";
         else if (edad < 10)
-            _finalMessage = "Sos demasiado joven, no deberias estar mirando Pokemon?";
+            _finalMessage = "Sos demasiado joven, no deberías estar mirando Pokemon?";
         else
                 _finalMessage = "Estas hecho un pibe, ya quisiera yo tener esa edad!!";
 

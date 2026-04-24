@@ -23,6 +23,6 @@ public class LogButtons : MonoBehaviour
     {
         // Escribe tu código aquí:
         Debug.LogError("ERROR");
-        Debug.Break;
+        Debug.Break();
     }
 }
